@@ -1,0 +1,7 @@
+intents:
+  - get_repo_status
+  - watch_repo
+  - unwatch_repo
+
+entities:
+  - REPO_URL

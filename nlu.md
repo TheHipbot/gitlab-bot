@@ -1,0 +1,45 @@
+## intent:watch_repo
+- can you watch [http://blah.com](REPO_URL)
+- I'd like to watch [http://blah.com](REPO_URL)
+- will you follow [http://blah.com](REPO_URL)
+- can you follow [http://blah.com](REPO_URL)
+- I'd like to follow [http://blah.com](REPO_URL)
+- please follow [http://blah.com](REPO_URL)
+- please watch [http://blah.com](REPO_URL)
+- watch [http://blah.com](REPO_URL)
+- follow [http://blah.com](REPO_URL)
+
+## intent:unwatch_repo
+- can you stop watching [http://blah.com](REPO_URL)
+- I'd like to stop watching [http://blah.com](REPO_URL)
+- will you stop following [http://blah.com](REPO_URL)
+- can you stop following [http://blah.com/](REPO_URL)
+- I'd like to stop following [http://blah.com](REPO_URL)
+- please stop following [http://blah.com](REPO_URL)
+- please stop watching [http://blah.com](REPO_URL)
+- can you not watch [http://blah.com](REPO_URL)
+- I'd like to not watch [http://blah.com](REPO_URL)
+- will you not follow [http://blah.com](REPO_URL)
+- can you not follow [http://blah.com](REPO_URL)
+- I'd like to not follow [http://blah.com](REPO_URL)
+- please not follow [http://blah.com](REPO_URL)
+- please not watch [http://blah.com](REPO_URL)
+- can you unwatch [http://blah.com](REPO_URL)
+- I'd like to unwatch [http://blah.com](REPO_URL)
+- will you unfollow [http://blah.com](REPO_URL)
+- can you unfollow [http://blah.com](REPO_URL)
+- I'd like to unfollow [http://blah.com](REPO_URL)
+- please unfollow [http://blah.com](REPO_URL)
+- please unwatch [http://blah.com](REPO_URL)
+- stop following [http://blah.com](REPO_URL)
+- stop watching [http://blah.com](REPO_URL)
+
+## intent:get_repo_status
+- get status on [http://blah.com](REPO_URL)
+- requesting status on [http://blah.com](REPO_URL)
+- status report for [https://collaborationhelp.cisco.com/article/en-us/n0qp3oeb](REPO_URL)
+- status on [https://github.com/TheHipbot/gitlab-bot](REPO_URL)
+
+## regex:url
+- https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)
+

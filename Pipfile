@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+rasa-core = "*"
+rasa-nlu = {extras = ["tensorflow"],version = "*"}
+
+[requires]
+python_version = "3.6.5"
+
+[scripts]
+train_models = "python -m rasa_nlu.train -c nlu_config.yml --data nlu.md -o models --fixed_model_name nlu --project current --verbose"
+train_ = "python -m rasa_core.train -d domain.yml -o models/dialogue"
